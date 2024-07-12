@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (-) JobUnselected: {'identifier': 'example_py'}
+[0.000235] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000253] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/cp/town_ws/install/village_interfaces')])}
+[0.000291] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.010065] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.010598] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.011106] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cp/town_ws/build/village_wang', '--', '-j16', '-l16'], 'cwd': '/home/cp/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cp'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/cp'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2360'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9768ccab129579026e3ff23e6668b1ad'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '143567'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cp'), ('JOURNAL_STREAM', '8:37312'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cp'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/cp/.local/bin:/opt/ros/humble/bin:/home/cp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cp-Legion-R7000P-ARH7:@/tmp/.ICE-unix/2684,unix/cp-Legion-R7000P-ARH7:/tmp/.ICE-unix/2684'), ('INVOCATION_ID', '89cedfcdfdb64fbb864023386d439bd9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7f802e728f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cp/town_ws/install/village_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cp/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9768ccab129579026e3ff23e6668b1ad'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cp/town_ws/install/village_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.058869] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[0.079729] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.098924] (-) TimerEvent: {}
+[0.199331] (-) TimerEvent: {}
+[0.299735] (-) TimerEvent: {}
+[0.400158] (-) TimerEvent: {}
+[0.500515] (-) TimerEvent: {}
+[0.600839] (-) TimerEvent: {}
+[0.701251] (-) TimerEvent: {}
+[0.801676] (-) TimerEvent: {}
+[0.902021] (-) TimerEvent: {}
+[1.002458] (-) TimerEvent: {}
+[1.102773] (-) TimerEvent: {}
+[1.203098] (-) TimerEvent: {}
+[1.303413] (-) TimerEvent: {}
+[1.403727] (-) TimerEvent: {}
+[1.504736] (-) TimerEvent: {}
+[1.605081] (-) TimerEvent: {}
+[1.705421] (-) TimerEvent: {}
+[1.805760] (-) TimerEvent: {}
+[1.906087] (-) TimerEvent: {}
+[2.006418] (-) TimerEvent: {}
+[2.107046] (-) TimerEvent: {}
+[2.207662] (-) TimerEvent: {}
+[2.308078] (-) TimerEvent: {}
+[2.408414] (-) TimerEvent: {}
+[2.508771] (-) TimerEvent: {}
+[2.609121] (-) TimerEvent: {}
+[2.709410] (-) TimerEvent: {}
+[2.809718] (-) TimerEvent: {}
+[2.909982] (-) TimerEvent: {}
+[3.010240] (-) TimerEvent: {}
+[3.110519] (-) TimerEvent: {}
+[3.210863] (-) TimerEvent: {}
+[3.311241] (-) TimerEvent: {}
+[3.411625] (-) TimerEvent: {}
+[3.511981] (-) TimerEvent: {}
+[3.612298] (-) TimerEvent: {}
+[3.712560] (-) TimerEvent: {}
+[3.812826] (-) TimerEvent: {}
+[3.913146] (-) TimerEvent: {}
+[4.013494] (-) TimerEvent: {}
+[4.113801] (-) TimerEvent: {}
+[4.214108] (-) TimerEvent: {}
+[4.314405] (-) TimerEvent: {}
+[4.414717] (-) TimerEvent: {}
+[4.515031] (-) TimerEvent: {}
+[4.615375] (-) TimerEvent: {}
+[4.715717] (-) TimerEvent: {}
+[4.816044] (-) TimerEvent: {}
+[4.916377] (-) TimerEvent: {}
+[5.016685] (-) TimerEvent: {}
+[5.116921] (-) TimerEvent: {}
+[5.217160] (-) TimerEvent: {}
+[5.317427] (-) TimerEvent: {}
+[5.417715] (-) TimerEvent: {}
+[5.517995] (-) TimerEvent: {}
+[5.618322] (-) TimerEvent: {}
+[5.718650] (-) TimerEvent: {}
+[5.819347] (-) TimerEvent: {}
+[5.919649] (-) TimerEvent: {}
+[6.019996] (-) TimerEvent: {}
+[6.120412] (-) TimerEvent: {}
+[6.220737] (-) TimerEvent: {}
+[6.321072] (-) TimerEvent: {}
+[6.421499] (-) TimerEvent: {}
+[6.521838] (-) TimerEvent: {}
+[6.622178] (-) TimerEvent: {}
+[6.634494] (village_wang) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wang2_node\x1b[0m\n'}
+[6.722296] (-) TimerEvent: {}
+[6.822607] (-) TimerEvent: {}
+[6.922930] (-) TimerEvent: {}
+[6.972520] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[6.984232] (village_wang) CommandEnded: {'returncode': 0}
+[7.011299] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[7.020844] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cp/town_ws/build/village_wang'], 'cwd': '/home/cp/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cp'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/cp'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2360'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9768ccab129579026e3ff23e6668b1ad'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '143567'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cp'), ('JOURNAL_STREAM', '8:37312'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cp'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/cp/.local/bin:/opt/ros/humble/bin:/home/cp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cp-Legion-R7000P-ARH7:@/tmp/.ICE-unix/2684,unix/cp-Legion-R7000P-ARH7:/tmp/.ICE-unix/2684'), ('INVOCATION_ID', '89cedfcdfdb64fbb864023386d439bd9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7f802e728f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cp/town_ws/install/village_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cp/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9768ccab129579026e3ff23e6668b1ad'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cp/town_ws/install/village_interfaces:/opt/ros/humble')]), 'shell': False}
+[7.022988] (-) TimerEvent: {}
+[7.029487] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.029755] (village_wang) StdoutLine: {'line': b'-- Installing: /home/cp/town_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[7.035015] (village_wang) StdoutLine: {'line': b'-- Set runtime path of "/home/cp/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""\n'}
+[7.035285] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[7.035428] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[7.035531] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[7.035667] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[7.035765] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[7.035870] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[7.035971] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[7.036064] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[7.036171] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[7.036262] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[7.036357] (village_wang) StdoutLine: {'line': b'-- Installing: /home/cp/town_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[7.036452] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[7.036503] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[7.036546] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[7.036587] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/package.xml\n'}
+[7.037450] (village_wang) CommandEnded: {'returncode': 0}
+[7.084099] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[7.084846] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_generator_c[0m
+[0.059s] [  2%] Built target village_interfaces__cpp
+[0.061s] [ 12%] Built target village_interfaces__rosidl_generator_c
+[0.069s] [ 12%] Built target ament_cmake_python_copy_village_interfaces
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.082s] [ 23%] Built target village_interfaces__rosidl_typesupport_c
+[0.084s] [ 42%] Built target village_interfaces__rosidl_typesupport_cpp
+[0.084s] [ 44%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[0.084s] [ 55%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.085s] [ 65%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[0.090s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[0.112s] [ 76%] Built target village_interfaces
+[0.135s] [ 78%] Built target village_interfaces__py
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_generator_py[0m
+[0.164s] [ 87%] Built target village_interfaces__rosidl_generator_py
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.188s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.188s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[0.188s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.258s] running egg_info
+[0.258s] writing village_interfaces.egg-info/PKG-INFO
+[0.258s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[0.258s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[0.260s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.261s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.285s] [100%] Built target ament_cmake_python_build_village_interfaces_egg

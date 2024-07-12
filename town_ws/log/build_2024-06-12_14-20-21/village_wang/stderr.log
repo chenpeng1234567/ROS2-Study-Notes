@@ -1,0 +1,10 @@
+[01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid Wang2Node::sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:82:22:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kunsigned int novelsNum[m[K’
+   82 |         unsigned int [01;31m[KnovelsNum[m[K = (int)request->money /(1.0); //应给小说数量，一块钱一章
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:80:22:[m[K [01;36m[Knote: [m[K‘[01m[Kunsigned int novelsNum[m[K’ previously declared here
+   80 |         unsigned int [01;36m[KnovelsNum[m[K = int( request->money / novel_price ); //应给小说数量，一块钱一章
+      |                      [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

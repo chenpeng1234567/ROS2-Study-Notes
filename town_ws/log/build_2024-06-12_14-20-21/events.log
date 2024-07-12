@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (-) JobUnselected: {'identifier': 'example_py'}
+[0.000192] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000208] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.000228] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/cp/town_ws/install/village_interfaces')])}
+[0.000248] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.010291] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.010864] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.011574] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cp/town_ws/build/village_wang', '--', '-j16', '-l16'], 'cwd': '/home/cp/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cp'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/cp'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2360'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2684'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9768ccab129579026e3ff23e6668b1ad'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '215918'), ('COLCON_PREFIX_PATH', '/home/cp/town_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cp'), ('JOURNAL_STREAM', '8:37312'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cp'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/cp/.local/bin:/opt/ros/humble/bin:/home/cp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cp-Legion-R7000P-ARH7:@/tmp/.ICE-unix/2684,unix/cp-Legion-R7000P-ARH7:/tmp/.ICE-unix/2684'), ('INVOCATION_ID', '89cedfcdfdb64fbb864023386d439bd9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7f802e728f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/home/cp/town_ws/install/village_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cp/town_ws/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9768ccab129579026e3ff23e6668b1ad'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble')]), 'shell': False}
+[0.056061] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[0.075126] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.099200] (-) TimerEvent: {}
+[0.199522] (-) TimerEvent: {}
+[0.299820] (-) TimerEvent: {}
+[0.400080] (-) TimerEvent: {}
+[0.500339] (-) TimerEvent: {}
+[0.600663] (-) TimerEvent: {}
+[0.700978] (-) TimerEvent: {}
+[0.801303] (-) TimerEvent: {}
+[0.901631] (-) TimerEvent: {}
+[1.001963] (-) TimerEvent: {}
+[1.102268] (-) TimerEvent: {}
+[1.202598] (-) TimerEvent: {}
+[1.302903] (-) TimerEvent: {}
+[1.403212] (-) TimerEvent: {}
+[1.503517] (-) TimerEvent: {}
+[1.603841] (-) TimerEvent: {}
+[1.704150] (-) TimerEvent: {}
+[1.804433] (-) TimerEvent: {}
+[1.849394] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Wang2Node::sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.849647] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:82:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kunsigned int novelsNum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.849770] (village_wang) StderrLine: {'line': b'   82 |         unsigned int \x1b[01;31m\x1b[KnovelsNum\x1b[m\x1b[K = (int)request->money /(1.0); //\xe5\xba\x94\xe7\xbb\x99\xe5\xb0\x8f\xe8\xaf\xb4\xe6\x95\xb0\xe9\x87\x8f\xef\xbc\x8c\xe4\xb8\x80\xe5\x9d\x97\xe9\x92\xb1\xe4\xb8\x80\xe7\xab\xa0\n'}
+[1.849867] (village_wang) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.849957] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:80:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunsigned int novelsNum\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.850047] (village_wang) StderrLine: {'line': b'   80 |         unsigned int \x1b[01;36m\x1b[KnovelsNum\x1b[m\x1b[K = int( request->money / novel_price ); //\xe5\xba\x94\xe7\xbb\x99\xe5\xb0\x8f\xe8\xaf\xb4\xe6\x95\xb0\xe9\x87\x8f\xef\xbc\x8c\xe4\xb8\x80\xe5\x9d\x97\xe9\x92\xb1\xe4\xb8\x80\xe7\xab\xa0\n'}
+[1.850136] (village_wang) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904553] (-) TimerEvent: {}
+[2.004875] (-) TimerEvent: {}
+[2.105226] (-) TimerEvent: {}
+[2.205550] (-) TimerEvent: {}
+[2.305873] (-) TimerEvent: {}
+[2.406177] (-) TimerEvent: {}
+[2.506659] (-) TimerEvent: {}
+[2.606983] (-) TimerEvent: {}
+[2.707296] (-) TimerEvent: {}
+[2.807603] (-) TimerEvent: {}
+[2.907927] (-) TimerEvent: {}
+[3.008254] (-) TimerEvent: {}
+[3.108579] (-) TimerEvent: {}
+[3.208887] (-) TimerEvent: {}
+[3.309222] (-) TimerEvent: {}
+[3.409613] (-) TimerEvent: {}
+[3.509957] (-) TimerEvent: {}
+[3.610294] (-) TimerEvent: {}
+[3.710671] (-) TimerEvent: {}
+[3.811013] (-) TimerEvent: {}
+[3.901793] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/wang2_node.dir/src/wang2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.902123] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/wang2_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.902479] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.904675] (village_wang) CommandEnded: {'returncode': 2}
+[3.911083] (-) TimerEvent: {}
+[3.943585] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[3.954236] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/cp/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16
+Invoked command in '/home/cp/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16

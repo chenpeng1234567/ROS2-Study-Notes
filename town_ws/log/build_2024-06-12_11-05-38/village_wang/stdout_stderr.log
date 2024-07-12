@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid Wang2Node::sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:102:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  102 |         for (unsigned int i = 0; [01;35m[Ki < (int)novelsNum[m[K; i++)
+      |                                  [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable wang2_node[0m
+[100%] Built target wang2_node
+-- Install configuration: ""
+-- Installing: /home/cp/town_ws/install/village_wang/lib/village_wang/wang2_node
+-- Set runtime path of "/home/cp/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/path.sh
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.bash
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.sh
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+-- Installing: /home/cp/town_ws/install/village_wang/share/village_wang/package.dsv
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+-- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/package.xml

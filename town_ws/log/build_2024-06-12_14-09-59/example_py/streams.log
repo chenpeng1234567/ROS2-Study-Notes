@@ -1,0 +1,26 @@
+[0.478s] Invoking command in '/home/cp/town_ws/src/example_py': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/build/example_py/prefix_override:/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/cp/town_ws/build/example_py/build install --record /home/cp/town_ws/build/example_py/install.log --single-version-externally-managed install_data
+[0.657s] running egg_info
+[0.657s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[0.658s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[0.658s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[0.659s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.660s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.660s] running build
+[0.660s] running build_py
+[0.660s] copying example_py/li4.py -> /home/cp/town_ws/build/example_py/build/lib/example_py
+[0.660s] running install
+[0.660s] running install_lib
+[0.661s] copying /home/cp/town_ws/build/example_py/build/lib/example_py/li4.py -> /home/cp/town_ws/install/example_py/lib/python3.10/site-packages/example_py
+[0.662s] byte-compiling /home/cp/town_ws/install/example_py/lib/python3.10/site-packages/example_py/li4.py to li4.cpython-310.pyc
+[0.662s] running install_data
+[0.662s] running install_egg_info
+[0.665s] removing '/home/cp/town_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.665s] Copying ../../build/example_py/example_py.egg-info to /home/cp/town_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[0.666s] running install_scripts
+[0.681s] Installing li3 script to /home/cp/town_ws/install/example_py/lib/example_py
+[0.681s] Installing li4 script to /home/cp/town_ws/install/example_py/lib/example_py
+[0.681s] Installing node_02 script to /home/cp/town_ws/install/example_py/lib/example_py
+[0.681s] writing list of installed files to '/home/cp/town_ws/build/example_py/install.log'
+[0.708s] Invoked command in '/home/cp/town_ws/src/example_py' returned '0': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/build/example_py/prefix_override:/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/cp/town_ws/build/example_py/build install --record /home/cp/town_ws/build/example_py/install.log --single-version-externally-managed install_data

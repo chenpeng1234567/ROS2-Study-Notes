@@ -1,0 +1,50 @@
+[0.014s] Invoking command in '/home/cp/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[1.917s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.918s]                  from [01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[1.918s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[1.918s] [01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:35:47:[m[K   required from here
+[1.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:204:15:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KParameterValue(const unsigned int&)[m[K’ is ambiguous
+[1.918s]   204 |       rclcpp::[01;31m[KParameterValue(default_value)[m[K,
+[1.918s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.918s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.919s]                  from [01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:1[m[K:
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(double)[m[K’
+[1.919s]    94 |   explicit [01;36m[KParameterValue[m[K(const double double_value);
+[1.919s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(float)[m[K’
+[1.919s]    91 |   explicit [01;36m[KParameterValue[m[K(const float double_value);
+[1.919s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int64_t)[m[K’
+[1.919s]    88 |   explicit [01;36m[KParameterValue[m[K(const int64_t int_value);
+[1.919s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int)[m[K’
+[1.919s]    85 |   explicit [01;36m[KParameterValue[m[K(const int int_value);
+[1.919s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(bool)[m[K’
+[1.919s]    82 |   explicit [01;36m[KParameterValue[m[K(const bool bool_value);
+[1.919s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)[m[K’
+[1.919s]    71 | class [01;36m[KParameterValue[m[K
+[1.919s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)[m[K’
+[1.923s] [01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid Wang2Node::sell_book_callback(village_interfaces::srv::SellNovel_Request_<std::allocator<void> >::SharedPtr, village_interfaces::srv::SellNovel_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.923s] [01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:82:22:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kunsigned int novelsNum[m[K’
+[1.923s]    82 |         unsigned int [01;31m[KnovelsNum[m[K = (int)request->money /(1.0); //应给小说数量，一块钱一章
+[1.923s]       |                      [01;31m[K^~~~~~~~~[m[K
+[1.923s] [01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:80:22:[m[K [01;36m[Knote: [m[K‘[01m[Kunsigned int novelsNum[m[K’ previously declared here
+[1.923s]    80 |         unsigned int [01;36m[KnovelsNum[m[K = int( request->money / novel_price ); //应给小说数量，一块钱一章
+[1.924s]       |                      [01;36m[K^~~~~~~~~[m[K
+[4.061s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+[4.061s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+[4.061s] gmake: *** [Makefile:146：all] 错误 2
+[4.064s] Invoked command in '/home/cp/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16

@@ -1,0 +1,5 @@
+[console_scripts]
+li3_node = example_py.li3:main
+li4_node = example_py.li4:main
+node_02 = example_py.node_02:main
+

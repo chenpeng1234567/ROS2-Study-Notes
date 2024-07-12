@@ -1,0 +1,7 @@
+[01m[K/home/cp/town_ws/src/village_wang/src/wang2.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kvillage_interfaces/srv/sell_novel.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"village_interfaces/srv/sell_novel.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

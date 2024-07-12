@@ -1,0 +1,4 @@
+Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cp/town_ws/install/example_py:/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16
+Invoked command in '/home/cp/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cp/town_ws/install/example_py:/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16
+Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cp/town_ws/install/example_py:/opt/ros/humble /usr/bin/cmake --install /home/cp/town_ws/build/village_interfaces
+Invoked command in '/home/cp/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cp/town_ws/install/example_py:/opt/ros/humble /usr/bin/cmake --install /home/cp/town_ws/build/village_interfaces

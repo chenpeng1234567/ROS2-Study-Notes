@@ -1,0 +1,1 @@
+Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16

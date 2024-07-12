@@ -1,0 +1,23 @@
+[0.498s] Invoking command in '/home/cp/town_ws/src/example_py': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/build/example_py/prefix_override:/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/cp/town_ws/build/example_py/build install --record /home/cp/town_ws/build/example_py/install.log --single-version-externally-managed install_data
+[0.683s] running egg_info
+[0.684s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[0.684s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[0.684s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[0.684s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[0.684s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[0.685s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.686s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.686s] running build
+[0.686s] running build_py
+[0.687s] running install
+[0.687s] running install_lib
+[0.688s] running install_data
+[0.688s] running install_egg_info
+[0.690s] removing '/home/cp/town_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.690s] Copying ../../build/example_py/example_py.egg-info to /home/cp/town_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[0.691s] running install_scripts
+[0.708s] Installing li3_node script to /home/cp/town_ws/install/example_py/lib/example_py
+[0.708s] Installing li4_node script to /home/cp/town_ws/install/example_py/lib/example_py
+[0.708s] Installing node_02 script to /home/cp/town_ws/install/example_py/lib/example_py
+[0.708s] writing list of installed files to '/home/cp/town_ws/build/example_py/install.log'
+[0.734s] Invoked command in '/home/cp/town_ws/src/example_py' returned '0': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/build/example_py/prefix_override:/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/cp/town_ws/build/example_py/build install --record /home/cp/town_ws/build/example_py/install.log --single-version-externally-managed install_data

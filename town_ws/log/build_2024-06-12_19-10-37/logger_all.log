@@ -1,0 +1,326 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c15467c6e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c15469e0790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c15469e0790>>, mixin_verb=('build',))
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cp/town_ws'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_py) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_py' with type 'ros.ament_python' and name 'example_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_interfaces' with type 'ros.ament_cmake' and name 'village_interfaces'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_wang' with type 'ros.ament_cmake' and name 'village_wang'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_zhang) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_zhang' with type 'ros.ament_cmake' and name 'village_zhang'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'village_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cp/town_ws/build/village_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cp/town_ws/install/village_interfaces', 'merge_install': False, 'path': '/home/cp/town_ws/src/village_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'example_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cp/town_ws/build/example_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cp/town_ws/install/example_py', 'merge_install': False, 'path': '/home/cp/town_ws/src/example_py', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'village_wang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cp/town_ws/build/village_wang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cp/town_ws/install/village_wang', 'merge_install': False, 'path': '/home/cp/town_ws/src/village_wang', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'village_zhang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cp/town_ws/build/village_zhang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cp/town_ws/install/village_zhang', 'merge_install': False, 'path': '/home/cp/town_ws/src/village_zhang', 'symlink_install': False, 'test_result_base': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cp/town_ws/src/village_interfaces' with build type 'ament_cmake'
+[0.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cp/town_ws/src/village_interfaces'
+[0.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16
+[0.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cp/town_ws/build/village_interfaces
+[0.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cp/town_ws/build/village_interfaces
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces' for CMake module files
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces' for CMake config files
+[0.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/lib'
+[0.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/bin'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/lib/python3.10/site-packages'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/bin'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.sh'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.bash'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.zsh'
+[0.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[0.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces' for CMake module files
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces' for CMake config files
+[0.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/lib'
+[0.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/bin'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/lib/python3.10/site-packages'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_interfaces/bin'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.sh'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.bash'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_interfaces/share/village_interfaces/package.zsh'
+[0.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[0.915s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cp/town_ws/src/example_py' with build type 'ament_python'
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_py', 'ament_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/example_py/share/example_py/hook/ament_prefix_path.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/example_py/share/example_py/hook/ament_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/example_py/share/example_py/hook/ament_prefix_path.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.918s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cp/town_ws/src/village_wang' with build type 'ament_cmake'
+[0.919s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cp/town_ws/src/village_wang'
+[0.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cp/town_ws/src/village_zhang' with build type 'ament_cmake'
+[0.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cp/town_ws/src/village_zhang'
+[0.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.132s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cp/town_ws/src/example_py'
+[1.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/build/village_zhang': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cp/town_ws/build/village_zhang -- -j16 -l16
+[1.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cp/town_ws/build/village_zhang -- -j16 -l16
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cp/town_ws/build/village_wang
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/build/village_zhang': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cp/town_ws/build/village_zhang
+[1.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang' for CMake module files
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cp/town_ws/build/village_wang
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang' for CMake config files
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/lib'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/bin'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/lib/pkgconfig/village_wang.pc'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/lib/python3.10/site-packages'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/bin'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.ps1'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/village_wang/share/village_wang/package.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.sh'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.bash'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.zsh'
+[1.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/village_wang/share/colcon-core/packages/village_wang)
+[1.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_zhang)
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang' for CMake module files
+[1.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cp/town_ws/build/village_zhang
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang' for CMake config files
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_zhang', 'cmake_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/lib'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/lib/pkgconfig/village_zhang.pc'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/lib/python3.10/site-packages'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/bin'
+[1.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.sh'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.bash'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.zsh'
+[1.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/village_zhang/share/colcon-core/packages/village_zhang)
+[1.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang' for CMake module files
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang' for CMake config files
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/lib'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/bin'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/lib/pkgconfig/village_wang.pc'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/lib/python3.10/site-packages'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_wang/bin'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/village_wang/share/village_wang/package.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.sh'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.bash'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_wang/share/village_wang/package.zsh'
+[1.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/village_wang/share/colcon-core/packages/village_wang)
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_zhang)
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang' for CMake config files
+[1.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_zhang', 'cmake_prefix_path')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.dsv'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/lib'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/bin'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/lib/pkgconfig/village_zhang.pc'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/lib/python3.10/site-packages'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/village_zhang/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.dsv'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.bash'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/village_zhang/share/village_zhang/package.zsh'
+[1.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/village_zhang/share/colcon-core/packages/village_zhang)
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cp/town_ws/src/example_py': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/build/example_py/prefix_override:/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/cp/town_ws/build/example_py/build install --record /home/cp/town_ws/build/example_py/install.log --single-version-externally-managed install_data
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py' for CMake module files
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cp/town_ws/src/example_py' returned '0': AMENT_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cp/town_ws/build/example_py/prefix_override:/home/cp/town_ws/install/example_py/lib/python3.10/site-packages:/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/cp/town_ws/build/example_py/build install --record /home/cp/town_ws/build/example_py/install.log --single-version-externally-managed install_data
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py' for CMake config files
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py/lib'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py/bin'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py/lib/pkgconfig/example_py.pc'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py/lib/python3.10/site-packages'
+[1.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_py', 'pythonpath')
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/example_py/share/example_py/hook/pythonpath.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cp/town_ws/install/example_py/share/example_py/hook/pythonpath.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cp/town_ws/install/example_py/share/example_py/hook/pythonpath.sh'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/cp/town_ws/install/example_py/bin'
+[1.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_py)
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/example_py/share/example_py/package.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cp/town_ws/install/example_py/share/example_py/package.dsv'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/example_py/share/example_py/package.sh'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/example_py/share/example_py/package.bash'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/cp/town_ws/install/example_py/share/example_py/package.zsh'
+[1.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cp/town_ws/install/example_py/share/colcon-core/packages/example_py)
+[1.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.690s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.695s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.702s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cp/town_ws/install/local_setup.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cp/town_ws/install/_local_setup_util_ps1.py'
+[1.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cp/town_ws/install/setup.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cp/town_ws/install/local_setup.sh'
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cp/town_ws/install/_local_setup_util_sh.py'
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cp/town_ws/install/setup.sh'
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cp/town_ws/install/local_setup.bash'
+[1.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cp/town_ws/install/setup.bash'
+[1.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cp/town_ws/install/local_setup.zsh'
+[1.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cp/town_ws/install/setup.zsh'

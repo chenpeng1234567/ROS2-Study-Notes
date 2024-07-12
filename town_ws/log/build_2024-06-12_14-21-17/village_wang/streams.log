@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/cp/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[6.853s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[7.175s] [100%] Built target wang2_node
+[7.187s] Invoked command in '/home/cp/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/cp/town_ws/build/village_wang -- -j16 -l16
+[7.230s] Invoking command in '/home/cp/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/cp/town_ws/build/village_wang
+[7.236s] -- Install configuration: ""
+[7.237s] -- Installing: /home/cp/town_ws/install/village_wang/lib/village_wang/wang2_node
+[7.243s] -- Set runtime path of "/home/cp/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[7.243s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[7.244s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[7.244s] -- Installing: /home/cp/town_ws/install/village_wang/share/village_wang/package.dsv
+[7.244s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[7.244s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[7.244s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[7.244s] -- Up-to-date: /home/cp/town_ws/install/village_wang/share/village_wang/package.xml
+[7.246s] Invoked command in '/home/cp/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/cp/town_ws/install/village_interfaces:/home/cp/town_ws/install/village_zhang:/home/cp/town_ws/install/village_wang:/home/cp/town_ws/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/cp/town_ws/install/village_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/cp/town_ws/build/village_wang

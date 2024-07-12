@@ -1,0 +1,11 @@
+setup.py
+village_interfaces/__init__.py
+village_interfaces.egg-info/PKG-INFO
+village_interfaces.egg-info/SOURCES.txt
+village_interfaces.egg-info/dependency_links.txt
+village_interfaces.egg-info/top_level.txt
+village_interfaces/msg/__init__.py
+village_interfaces/msg/_novel.py
+village_interfaces/srv/__init__.py
+village_interfaces/srv/_borrow_money.py
+village_interfaces/srv/_sell_novel.py

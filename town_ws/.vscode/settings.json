@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "functional": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/cp/town_ws/install/example_py/lib/python3.10/site-packages",
+        "/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cp/town_ws/install/example_py/lib/python3.10/site-packages",
+        "/home/cp/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

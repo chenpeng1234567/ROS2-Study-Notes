@@ -1,0 +1,72 @@
+[0.010s] Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cp/town_ws/build/village_interfaces -- -j16 -l16
+[0.048s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.058s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.067s] [  4%] Built target ament_cmake_python_copy_village_interfaces
+[0.255s] running egg_info
+[0.255s] creating village_interfaces.egg-info
+[0.256s] writing village_interfaces.egg-info/PKG-INFO
+[0.256s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[0.256s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[0.256s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.259s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.259s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[0.297s] [  4%] Built target ament_cmake_python_build_village_interfaces_egg
+[0.356s] [  4%] Built target village_interfaces__cpp
+[0.366s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.366s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.367s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.377s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o[0m
+[0.377s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[0.377s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[0.425s] [ 19%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[0.463s] [ 19%] Built target village_interfaces__rosidl_generator_c
+[0.474s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.474s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.474s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.596s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o[0m
+[0.596s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[0.596s] [ 31%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[0.631s] [ 36%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o[0m
+[0.631s] [ 36%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[0.631s] [ 38%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o[0m
+[0.661s] [ 40%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o[0m
+[0.662s] [ 42%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[0.664s] [ 44%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o[0m
+[0.769s] [ 48%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[0.769s] [ 48%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[0.771s] [ 51%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o[0m
+[0.832s] [ 53%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[0.846s] [ 55%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[0.847s] [ 57%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o[0m
+[0.847s] [ 59%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o[0m
+[0.866s] [ 61%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[0.869s] [ 63%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o[0m
+[0.882s] [ 65%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o[0m
+[0.902s] [ 65%] Built target village_interfaces__rosidl_typesupport_c
+[0.914s] [ 68%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[0.922s] [ 70%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[0.964s] [ 70%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[0.987s] [ 70%] Built target village_interfaces__rosidl_typesupport_cpp
+[1.096s] [ 72%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.155s] [ 74%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.173s] [ 74%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[1.222s] [ 74%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.250s] [ 76%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.315s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[1.337s] [ 76%] Built target village_interfaces
+[1.360s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.779s] [ 78%] Built target village_interfaces__py
+[1.801s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o[0m
+[1.802s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o[0m
+[1.802s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[1.886s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so[0m
+[1.925s] [ 87%] Built target village_interfaces__rosidl_generator_py
+[1.945s] [ 89%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.945s] [ 91%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.946s] [ 93%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.037s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.037s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.037s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.075s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.075s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.075s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext

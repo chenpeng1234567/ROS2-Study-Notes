@@ -1,0 +1,1 @@
+Invoking command in '/home/cp/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cp/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/cp/town_ws/install/village_interfaces
